@@ -1,0 +1,205 @@
+img {
+    display: block;
+    width: 100%;
+}
+
+body {
+   background-image: url(../img/header/fondo.jpg);
+  
+    font-family: "Montserrat", serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgb(19, 18, 18);
+    text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.151);
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: "Arvo", serif;
+    font-weight: 500;
+}
+
+.container >h2 {
+    color: antiquewhite;
+    padding: 2rem 2rem 1rem 0rem;
+}
+
+
+/*header*/
+.banner {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header/imgheader.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.banner-text {
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: auto;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+
+.img-banner {
+    width: 100px;
+    margin: auto;
+    padding-top: 2rem;
+    filter: drop-shadow(4px 8px 5px rgba(0, 0, 0, 0.575));
+
+}
+
+.container>.text-logo {
+    display: none;
+}
+
+/*productos*/
+
+.card-body1 {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.card-body2 {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.producto {
+    filter: drop-shadow(4px 8px 5px rgba(0, 0, 0, 0.575));
+
+
+}
+
+.tarjeta-producto {
+    box-shadow: 6px 9px 9px 1px rgba(0, 0, 0, 0.356);
+    border-radius: 2rem;
+    position: relative;
+    background-color: rgba(233, 231, 231, 0.925);
+    height: 100%
+}
+
+.card-text {
+    margin-bottom: auto;
+}
+
+
+.descuento {
+    filter: drop-shadow(4px 8px 5px rgba(0, 0, 0, 0.575));
+    position: absolute;
+    max-width: 15%;
+    top: 40px;
+    left: 20px;
+}
+
+.btn {
+    background-color: rgb(250, 27, 27);
+    color: rgb(250, 247, 247);
+    box-shadow: 2px 7px 8px 1px rgba(0, 0, 0, 0.21);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.404);
+
+}
+
+
+.card-text h3,
+.card-text1 h3 {
+    border-bottom: 0.2rem solid rgb(10, 10, 10);
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+
+}
+
+.card-info {
+    margin-bottom: auto;
+}
+
+.card-info a {
+
+    color: rgb(167, 3, 3);
+
+}
+
+.producto2 {
+    display: none;
+}
+
+.miFoto {
+
+    width: 250px;
+    margin: auto;
+
+}
+
+footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/footer/fondo_footer.jpg");
+    color: beige;
+    text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.151);
+}
+.infoPerso>a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+@media (min-width: 576px) {}
+
+
+@media (min-width: 768px) {
+    .banner-text {
+        text-align: right;
+
+
+    }
+
+
+}
+
+
+@media (min-width: 992px) {
+
+    .img-banner{
+        margin-left: 0;
+    }
+    .card-body1 {
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .card-text1 {
+        grid-column: 1/3;
+
+    }
+
+    .card-body2 {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: auto;
+
+    }
+
+    .card-text2 {
+        grid-column: 1/3;
+
+
+    }
+
+    .producto2 {
+        display: block;
+    }
+
+    .foto2 {
+        align-content: end;
+    }
+
+
+
+
+}
+
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
