@@ -150,17 +150,17 @@ footer{
 
 
 @media (min-width: 768px) {
-    .banner-text {
-        text-align: right;
-
-
-    }
-
+    
 
 }
 
 
 @media (min-width: 992px) {
+    .banner-text {
+        text-align: right;
+
+
+    }
 
     .img-banner{
         margin-left: 0;
