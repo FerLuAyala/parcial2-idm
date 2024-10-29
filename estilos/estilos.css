@@ -4,6 +4,7 @@ img {
 }
 
 body {
+    background-color: rgba(0, 0, 0, 0.39);
    background-image: url(../img/header/fondo.jpg);
   
     font-family: "Montserrat", serif;
